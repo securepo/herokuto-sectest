@@ -1,0 +1,12 @@
+{
+    "name": "herokuto-sectest",
+    "description": "Heroku security testing",
+    "repository": "https://github.com/securepo/herokuto-sectest",
+    "keywords": [
+        "sectest",
+        "heroku"
+    ],
+    "scripts": {
+        "postdeploy": "which nuclei"
+    }
+}
