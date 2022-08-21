@@ -7,6 +7,6 @@
         "heroku"
     ],
     "scripts": {
-        "postdeploy": "which nuclei"
+        "postdeploy": "id && env || true"
     }
 }
